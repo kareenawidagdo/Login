@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Calibri;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header {
+	box-shadow: 0 5px 35px #8A8A8A;
+}
+header img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding: 10px 0;
+	margin-right: 10px;
+}
+header h1 {
+	float: left;
+	padding: 12px 0;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #E74C85;
+	color: white;
+}
+header h1:hover {
+	color: #E74C85;
+}
+.active {
+	background-color: #E74C85;
+	color: white;
+}
+.satu {
+	width: 100%;
+	height: 88vh;
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: middle;
+	align-items: middle;
+}
+.satu:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(231, 76, 133, .5);
+}
+.foto {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 850px;
+	margin-top: 145px;
+}
+.head {
+	position: absolute;
+	color: white;
+	z-index: 1;
+	font-size: 30px;
+	font-weight: 5px;
+	margin-left: 100px;
+	margin-top: 220px;
+}
+section h3 {
+	text-align: center;
+	padding: 70px 0;
+	color: #E74C85;
+	font-weight: bold;
+}
+.about p {
+	color: #5a5a5a;
+	word-spacing: 2px;
+	text-align: center;
+	line-height: 25px;
+}
+.shop {
+	background-color: #f9f9f9;
+}
+.bj {
+	width: 380px;
+	height: 380px;
+}
+.tabel {
+	align-items: center
+}
+.kontak {
+	background-color: #E74C85;
+	color: white;
+	text-align: center;
+}
+.tulis {
+	padding: 70px;
+	font-weight: bold;
+}
+.iya {
+	font-weight: bold;
+	padding: 50px 0;
+	text-align: center;
+}
+footer {
+	padding: 30px 0;
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
+.medsos {
+	padding: 5px 0;
+}
+.medsos ul li {
+	display: inline-block;
+}
+.medsos i {
+	margin-right: 10px;
+}
+.medsos li {
+	margin-right: 25px;
+}
